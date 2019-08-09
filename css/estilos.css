@@ -52,6 +52,30 @@ header{
     justify-content: center;
     align-items: center;
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+
+.container-header{
+    height: 100%!important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+
+.degrade{
+    height: 100%!important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
 
 .img-header:before {
     width: 100%;
@@ -67,6 +91,7 @@ header{
     padding: 50px;
     z-index: 10;
     padding-right: 815px;
+    padding-top: 10px;
 }
 
 .bienvenido h1{
