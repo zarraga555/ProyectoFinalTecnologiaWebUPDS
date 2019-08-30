@@ -612,8 +612,16 @@ footer{
     padding: 10px;
     font-size: 18px;
 }
-
-
+.logoimg{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.img-div{
+    padding: 12px;
+    text-align: left;
+    margin: 0;
+}
 
 
 
