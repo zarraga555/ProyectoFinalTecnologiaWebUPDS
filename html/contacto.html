@@ -25,7 +25,6 @@
                     <li><a href="../index.html#principales">Principales Ciudades</a></li>
                     <li><a href="../html/explora.html">Explora</a></li>
                     <li><a href="../html/contacto.html">Contactanos</a></li>
-                    <li><a href="../html/login.html">Iniciar Sesion</a></li>
                 </ul>
             </nav>
         </div>
@@ -65,26 +64,71 @@
                 </div>
 
                 <form action="">
-
                     <div class="div-info">
-                        <input type="text" class="form-control" placeholder="Tu nombre">
+                        <input type="text" id="nombre" pattern="[A-Za-z].{5,}" class="form-control"
+                            placeholder="Nombre Completo" required>
+                    </div>
+                    <div class="div-info">
+                        <input type="email" id="correo" class="form-control" placeholder="Correo" required>
                     </div>
 
                     <div class="div-info">
-                        <input type="email" class="form-control" placeholder="Tu correo">
+                        <input type="tel" id="telefono" class="form-control" placeholder="Numero de Telefono">
                     </div>
 
                     <div class="div-info">
-                        <textarea name="message" class="form-control" id="Message" cols="30" rows="10"
-                            placeholder="Tu mensaje"></textarea>
+                        <input type="number" id="cpostal" class="form-control" placeholder="Codigo Postal" required>
+                    </div>
+
+                    <div class="div-info">
+                        <select name="TypeUser" id="" class="form-control">
+                            <option value="">Tipo de Usuario</option>
+                            <option value="">-------</option>
+                            <option value="">Turista Extranjero</option>
+                            <option value="">Turista Nacional</option>
+                            <option value="">Viajero Frecuente</option>
+                            <option value="">Primer Viaje</option>
+                        </select>
+                    </div>
+
+                    <div class="div-info">
+                        <input type="date" name="" id="" class="form-control">
+                    </div>
+
+                    <div class="div-info">
+                        <select name="place" id="" class="form-control">
+                            <option value="">Lugar que requiere informacion</option>
+                            <option value="">-------</option>
+                            <option value="">Cochabamba</option>
+                            <option value="">Santa Cruz</option>
+                            <option value="">La Paz</option>
+                            <!--<option value="">----</option>-->
+                        </select>
+                    </div>
+
+                    <div class="lbl-info">
+                        <div class="lbl-title"><label class="lbl-title">Sexo</label></div>
+                        <label class="lblradio"><input type="radio" name="sexo" value="F" id=""
+                                class="lbl-control">Femenino</label>
+                        <label class="lblradio"><input type="radio" name="sexo" value="M" id=""
+                                class="lbl-control">Masculino</label>
                     </div>
                     <div class="div-info">
-                            <input type="submit" value="Enviar Mensaje">
+                        <!--cols="30" rows="30"-->
+                        <textarea name="adtional" class="form-control" id="Message" cols="30" rows="10"
+                            placeholder="Informacion Adicional"></textarea>
+                    </div>
+
+                    <div class="div-info">
+                        <input type="submit" value="Enviar">
                     </div>
                 </form>
             </div>
             <div class="mapa-information">
-                <h2>googl</h2>
+                <div class="information-div">
+                    <h2 class="title-info">¿Tienes Problemas?</h2>
+                    <a href="../" class="btnform">Consultar</a>
+                </div>
             </div>
         </div>
 
