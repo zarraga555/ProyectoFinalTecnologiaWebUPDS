@@ -612,42 +612,19 @@ footer{
     padding: 10px;
     font-size: 18px;
 }
-@media screen and (max-width: 1200px){
-    
 
-.icono{
-display: flex;
-    justify-content: center;
-    height: 70px;
-    align-items: center;
-    color: #fff;
-    background: transparent;
-    padding: 20px;
-    z-index: 2003;
-    cursor: pointer;
-    margin-right: 40px;
-}
 
-.enlaces{
-    position: fixed;
-    height: 100vh;
-    right: 0;
-    width: 100%;
-    flex-direction: column;
-    transition: all 1s ease;
-    z-index: 2002;
-    justify-content: space-around;
-    align-items: center;
-    background: linear-gradient(to right, #eea849, #f46b45);
-    
-}
 
-.uno{
-    clip-path: circle(0% at 100% 0%)
-}
-.dos{
-    clip-path: circle(150% at 100% 0%);
-}
 
-}
+
+
+
+
+
+
+
+
+
+
+
 
