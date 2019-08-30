@@ -111,4 +111,15 @@
         text-align: center;
         color: #fff
     }
+    .mapa-information{
+        width: 600px;
+        margin-left: 0;
+    }
+    .contaniner-city{
+        padding: 0;
+        width: 90%;
+    }
+    .section-city{
+        width: 90%;
+    }
 }

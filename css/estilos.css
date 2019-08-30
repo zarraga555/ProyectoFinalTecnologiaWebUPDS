@@ -451,8 +451,7 @@ input[type="submit"]:hover, .btnform:hover{
 }
 .mapa-information{
     width: 600px;
-    /*margin-left: 67.5px;*/
-    padding: 20px;
+    margin-left: 50.5px;
 }
 .information-div{
     padding: 15px;
@@ -462,6 +461,15 @@ input[type="submit"]:hover, .btnform:hover{
     font-weight: 600;
     line-height: 1;
     margin-bottom: 20px;
+}
+.title-info-pregunta{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 50px;
 }
 .lblradio{
     color: rgba(51, 51, 51, 0.60);
@@ -572,7 +580,6 @@ footer{
     width: 100%;
 }
 .contaniner-city{
-    padding: 20px;
     width: 80%;
     height: auto;
     margin: auto;
